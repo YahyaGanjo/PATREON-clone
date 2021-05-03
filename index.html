@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--Import Font-awesome-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- My own stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PATREON-clone</title>
+  </head>
+
+  <body>
+    <!-- the Navigation bar -->
+
+    <!-- the logo -->
+
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo image" />
+      </div>
+
+      <!--Product-->
+
+      <div
+        class="hide-on-med-and-down dropdown-trigger"
+        href="#"
+        data-target="dropdown1"
+      >
+        <a class="black-text">Product</a>
+        <i class="material-icons right">expand_more</i>
+      </div>
+      <ul id="dropdown1" class="dropdown-content">
+        <li>
+          <a href="#"
+            ><h6>Lite</h6>
+            <p>Simple tools to set up recurring support from your fans</p></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><h6>Pro</h6>
+            <p>
+              All the tools to build and grow thriving membership business
+            </p></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><h6>Premium</h6>
+            <p>For established creators and creative businesses</p></a
+          >
+        </li>
+      </ul>
+
+      <!--For Creators-->
+
+      <div
+        class="hide-on-med-and-down dropdown-trigger"
+        href="#"
+        data-target="dropdown2"
+      >
+        <a class="black-text">For Creators</a>
+        <i class="material-icons right">expand_more</i>
+      </div>
+      <ul id="dropdown2" class="dropdown-content">
+        <li>
+          <a href="#"><i class="material-icons blue-text">mic</i>Podcasters</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">videocam</i>Video Creators</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">music_note</i>Musicians</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">brush</i>Visual Artists</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">public</i>Communities</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">article</i>Writers &
+            Journalists</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">sports_esports</i>Gaming
+            Creators</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">food_bank</i>Nonprofits</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">school</i>Tutorials and
+            Education</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">business</i>Local Businesses</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons blue-text">create</i
+            >Creators-of-all-kinds</a
+          >
+        </li>
+      </ul>
+
+      <!-- Pricing -->
+
+      <div class="no-dropdown hide-on-med-and-down">
+        <a href="#" class="black-text">Pricing</a>
+      </div>
+
+      <!--Resources-->
+
+      <div
+        class="hide-on-med-and-down dropdown-trigger"
+        href="#"
+        data-target="dropdown3"
+      >
+        <a class="black-text">Resources</a>
+        <i class="material-icons right">expand_more</i>
+      </div>
+      <ul id="dropdown3" class="dropdown-content white">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Creator Community</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Patreon U</a></li>
+        <li><a href="#">App Directory</a></li>
+        <li><a href="#">Help Center & FAQ</a></li>
+      </ul>
+
+      <!-- Starter Kit -->
+
+      <div class="no-dropdown hide-on-med-and-down">
+        <a href="#" class="black-text">Starter Kits</a>
+      </div>
+
+      <div class="space"></div>
+
+      <!-- Search -->
+
+      <div class="search-bar">
+        <div class="input-field grey lighten-4 valign-wrapper">
+          <i class="material-icons">search</i>
+          <input
+            type="search"
+            placeholder="Find a creator"
+            class="grey lighten-4"
+          />
+        </div>
+      </div>
+
+      <!-- Log In -->
+
+      <div class="no-dropdown">
+        <a href="#" class="black-text">Log In</a>
+      </div>
+
+      <!-- Create on Patreon -->
+
+      <div href="#" class="create-on-patreon valign-wrapper">
+        <b>Create on Patreon</b>
+      </div>
+
+      <!-- Menu -->
+
+      <div class="menu-icon">
+        <a
+          href="#"
+          data-target="mobile-nav"
+          class="sidenav-trigger hide-on-large-only black-text"
+        >
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </div>
+
+    <!--Side Nav-->
+
+    <ul class="sidenav collapsible" id="mobile-nav">
+      <li>
+        <div class="logo1" style="border-bottom: 1px solid black">
+          <img src="images/logo.png" alt="logo image" />
+          <a class="btn-floating right white black-text"
+            ><i class="material-icons sidenav-close">close</i></a
+          >
+        </div>
+      </li>
+
+      <!--Product-->
+
+      <li>
+        <div class="collapsible-header valign-wrapper black-text btn" href="#">
+          <p>Product</p>
+          <i class="material-icons">expand_more</i>
+        </div>
+        <div class="collapsible-body">
+          <a href="#">
+            <p class="black-text">
+              <strong>Lite</strong><br />
+              Simple tools to set up recurring support from your fans
+            </p></a
+          >
+
+          <a href="#">
+            <p class="black-text">
+              <strong>Pro</strong><br />
+              All the tools to build and grow thriving membership business
+            </p></a
+          >
+          <a href="#">
+            <p class="black-text">
+              <strong>Premium</strong><br />
+              For established creators and creative businesses
+            </p></a
+          >
+        </div>
+      </li>
+
+      <!--For Creators-->
+
+      <li>
+        <div class="collapsible-header valign-wrapper black-text btn" href="#">
+          <p>For Creators</p>
+          <i class="material-icons">expand_more</i>
+        </div>
+        <div class="collapsible-body">
+          <a href="#" class="btn-flat">Podcasters</a><br />
+          <a href="#" class="btn-flat">Video Creators</a><br />
+          <a href="#" class="btn-flat">Musicians</a><br />
+          <a href="#" class="btn-flat">Visual Artists</a><br />
+          <a href="#" class="btn-flat">Communities</a><br />
+          <a href="#" class="btn-flat">Writers & Journalists</a><br />
+          <a href="#" class="btn-flat">Gaming Creators</a><br />
+          <a href="#" class="btn-flat">Nonprofits</a><br />
+          <a href="#" class="btn-flat">Tutorials and Education</a><br />
+          <a href="#" class="btn-flat">Local Businesses</a><br />
+          <a href="#" class="btn-flat">Creators-of-all-kinds</a><br />
+        </div>
+      </li>
+
+      <!-- Pricing -->
+      <li>
+        <div class="collapsible-header black-text btn" href="#">Pricing</div>
+      </li>
+
+      <!--Resources-->
+
+      <li>
+        <div class="collapsible-header black-text btn" href="#">
+          <p>Resources</p>
+          <i class="material-icons">expand_more</i>
+        </div>
+        <div class="collapsible-body">
+          <p href="#">Blog</p>
+          <p href="#">Creator Community</p>
+          <p href="#">Events</p>
+          <p href="#">Patreon U</p>
+          <p href="#">App Directory</p>
+          <p href="#">Help Center & FAQ</p>
+        </div>
+      </li>
+
+      <!--Starter Kit-->
+
+      <li>
+        <div class="collapsible-header black-text btn" href="#">
+          Starter Kit
+        </div>
+      </li>
+
+      <!-- Create On Patreon -->
+
+      <li>
+        <div class="collapsible-header black-text btn" href="#">
+          Create On Patreon
+        </div>
+      </li>
+
+      <!-- Log In -->
+
+      <li>
+        <div class="collapsible-header black-text btn" href="#">Log In</div>
+      </li>
+
+      <!-- Sign Up -->
+
+      <li>
+        <div class="collapsible-header black-text btn" href="#">Sign Up</div>
+      </li>
+    </ul>
+
+    <!-- The Header-->
+
+    <header id="home" class="black">
+      <div class="row">
+        <div class="col s12 l5 offset-l1">
+          <p>Change the way art is valued</p>
+          <h5>
+            Let your most passionate fans support your creative work via monthly
+            membership.
+          </h5>
+          <div
+            href="#"
+            class="get-started valign-wrapper"
+            style="width: fit-content"
+          >
+            <b style="margin: 20px">Get started</b>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <img
+            src="images/coe-optimize.gif"
+            alt="gif photo"
+            class="responsive-img"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!--What's Patreon? Section-->
+
+    <section>
+      <!-- The intro text-->
+
+      <div class="container center">
+        <h2>What's Patreon?</h2>
+        <h5>
+          On Patreon, you can let your fans become active participants in the
+          work they love by offering them a monthly membership. You give them
+          access to exclusive content, community, and insight into your creative
+          process. In exchange, you get the freedom to do your best work, and
+          the stability you need to build an independent creative career.
+        </h5>
+      </div>
+
+      <!--The cards part-->
+
+      <div class="container section">
+        <!--Develop a recurring income stream-->
+
+        <div class="row">
+          <div class="col s12 l5 offset-l1">
+            <h5 class="red-text">Develop a recurring income stream</h5>
+            <p>
+              Stop rolling the dice of ad revenue and per-stream payouts. Get
+              recurring income through monthly payments from your patrons
+            </p>
+          </div>
+          <div class="col s12 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/mikki_kendall.png" alt="mikki_kendal" />
+              </div>
+              <div class="person-name">
+                <a href="#"><b>Mikki kendall</b><br />writer</a>
+                <i class="material-icons">arrow_forward_ios</i>
+              </div>
+              <div class="card-content">
+                <p>
+                  "The reliable monthly income has made it possible for me to
+                  spend less time chasing checks and more time creating.."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Take back creative control-->
+
+        <div class="row">
+          <div class="col s12 l5 push-l6">
+            <h5 class="red-text">Take back creative control</h5>
+            <p>
+              Create what you want and what your audience loves. You don’t have
+              to conform to popular taste or the constraints of ad-based
+              monetization models.
+            </p>
+          </div>
+          <div class="col s12 l6 pull-l5">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="images/baratunde_thurston.png"
+                  alt="baratunde_thurston"
+                />
+              </div>
+              <div class="person-name">
+                <a href="#"
+                  ><b>Baratunde Thurston</b><br />writer, comedian,
+                  commentator</a
+                >
+                <i class="material-icons">arrow_forward_ios</i>
+              </div>
+              <div class="card-content">
+                <p>
+                  "Twenty years into my career, I realize I’ve been scattering
+                  my creativity and energy, chasing the approval of algorithms
+                  or network executives."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Build a direct-->
+
+        <div class="row">
+          <div class="col s12 l5 offset-l1">
+            <h5 class="red-text">
+              Build a direct, meaningful connection with your audience
+            </h5>
+            <p>
+              No ads, no trolls, no algorithms. Enjoy direct access and deeper
+              conversations with the people who matter the most.
+            </p>
+          </div>
+          <div class="col s12 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/heather_mcdonald.png" alt="heather_mcdonald" />
+              </div>
+              <div class="person-name">
+                <a href="#"><b>Heather McDonald</b><br />Juicy Scoop Podcast</a
+                ><i class="material-icons">arrow_forward_ios</i>
+              </div>
+              <div class="card-content">
+                <p>
+                  "With Patreon, it’s not about likes and views, you can really
+                  connect with your fans, ignore the haters and focus on the
+                  positive. I’d rather have 300 patrons than 3 million Instagram
+                  followers."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container Center">
+      <h2>Who uses Patreon?</h2>
+      <h5>
+        If you’re ready to take your work to the next level and willing to open
+        your heart to your audience, Patreon is for you.
+      </h5>
+    </div>
+
+    <!-- The slider section-->
+
+    <section>
+      <div class="row">
+        <div class="col s12 l3 push-l7">
+          <ul>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Podcasters</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Video Creators</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Musicians</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Visual Artists</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Communities</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Writers & Journalists</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Gaming Creators</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Nonprofits</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Tutorials and Education</b></h5></a
+              >
+            </li>
+            <li>
+              <a href="#" class="black-text"
+                ><h5><b>Creators-of-all-kinds</b></h5></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="slider col s10 l4 offset-s1 offset-l1 pull-l2">
+          <ul class="slides">
+            <li>
+              <img src="images/podcasters.png" alt="podcasters" />
+            </li>
+            <li>
+              <img src="images/videocreators.png" alt="video_creators" />
+            </li>
+            <li>
+              <img src="images/musicians.png" alt="musicians" />
+            </li>
+            <li>
+              <img src="images/visualartists.png" alt="visual_artists" />
+            </li>
+            <li>
+              <img src="images/communities.png" alt="communities" />
+            </li>
+            <li>
+              <img src="images/writers.png" alt="writers" />
+            </li>
+            <li>
+              <img src="images/gamingcreators.png" alt="gaming_creators" />
+            </li>
+            <li>
+              <img src="images/nonprofit.png" alt="nonprofit" />
+            </li>
+            <li>
+              <img src="images/tutorials.png" alt="tutorials" />
+            </li>
+            <li>
+              <img
+                src="images/creatorsofallkinds.png"
+                alt="creators_of_all_kinds"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flexbox section : See how other ... -->
+
+    <section class="flex-container container">
+      <div class="title-flex-container">See how other creators use Patreon</div>
+      <div class="flex-item-horizontal">
+        <div class="flex-item-vertical">
+          <img
+            src="images/is-patreon-right-for-you_2x.jpg"
+            alt="patreon right 4 u"
+          />
+        </div>
+        <div class="flex-item-vertical">
+          <h5>Is Patreon Right For You And Your Business?</h5>
+          <p>
+            In this article, we want to introduce you to the membership model—an
+            effective, field-tested way for independent creators...
+          </p>
+          <a>Read More</a>
+        </div>
+      </div>
+      <div class="flex-item-horizontal">
+        <div class="flex-item-vertical">
+          <img
+            src="images/6-membership-based-business_2x.jpg"
+            alt="membership photo"
+          />
+        </div>
+        <div class="flex-item-vertical">
+          <h5>
+            6 Membership-based Business Models You Can Use On Patreon Today
+          </h5>
+          <p>
+            If you’ve looked at what other creators are doing on Patreon, it can
+            be daunting to see how many different ways they leverage...
+          </p>
+          <a>Read More</a>
+        </div>
+      </div>
+      <div class="flex-item-horizontal">
+        <div class="flex-item-vrtical">
+          <img src="images/20-most-useful_2x.jpg" alt="useful features" />
+        </div>
+        <div class="flex-item-vertical">
+          <h5>The 20 Most Useful Patreon Features & Integrations</h5>
+          <p>
+            As a creator, it's easy to feel like there just aren't enough hours
+            in the day. Whether you're working on your project part time...
+          </p>
+          <a>Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The footer-->
+
+    <footer class="black">
+      <div class="page-footer black">
+        <ul>
+          <li><img src="images/logo-white.png" width="35px" /></li>
+          <li class="black white-text btn"><b>LANGUAGE : ENGliSH</b></li>
+          <li class="black white-text btn"><b>NETHERLANDS</b></li>
+          <li class="black white-text btn"><b>CURRENCY : $</b></li>
+        </ul>
+        <div>
+          <p class="white-text large"><b>Product</b></p>
+          <br />
+          <a href="#">Lite</a><br />
+          <a href="#">Pro</a><br />
+          <a href="#">Premium</a><br />
+          <a href="#">Pricing</a>
+        </div>
+        <div>
+          <p class="white-text large"><b>For Creators</b></p>
+          <br />
+          <a href="#">Podcasters</a><br />
+          <a href="#">Video Creators</a><br />
+          <a href="#">Musicians</a><br />
+          <a href="#">Visual Artists</a><br />
+          <a href="#">Writers & Journalists</a><br />
+          <a href="#">Communities</a><br />
+          <a href="#">Gaming Creators</a><br />
+          <a href="#">Nonprofits</a><br />
+          <a href="#">Tutorials and Education</a><br />
+          <a href="#">Local Business</a><br />
+          <a href="#">Creators-of-all-kinds</a>
+        </div>
+        <div>
+          <p class="white-text large"><b>Resources</b></p>
+          <br />
+          <a href="#">Blog</a><br />
+          <a href="#">Patreon U</a><br />
+          <a href="#">Help Center & FAQ</a><br />
+          <a href="#">App Directory</a><br />
+          <a href="#">Developers</a>
+        </div>
+        <div>
+          <p class="white-text large"><b>Company</b></p>
+          <br />
+          <a href="#">About</a><br />
+          <a href="#">Press</a><br />
+          <a href="#">Careers</a><br />
+          <a href="#">Privacy</a><br />
+          <a href="#">Policy & Terms</a><br />
+          <a href="#">Privacy Preferences</a><br />
+          <a href="#">Accessibility</a><br />
+          <a href="#">Pricing</a>
+        </div>
+        <div class="social-media">
+          <a href="#" class="btn-floating btn-small"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="btn-floating btn-small"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="btn-floating btn-small"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="#" class="btn-floating btn-small"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <div class="copy-right">
+          <p>&copy; Patreon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sitemap</p>
+          <p>
+            600 Townsend Street, Suite 500<br />
+            San Francisco, CA 94103<br />
+            USA<br />
+            Phone: +1 (833) 972-8766
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      // Side-navbar
+      const sideNav = document.querySelector(".sidenav");
+      M.Sidenav.init(sideNav, {});
+    </script>
+    <script>
+      // Drop down inside the navbar
+      const dropDown = document.querySelectorAll(".dropdown-trigger");
+      M.Dropdown.init(dropDown, {
+        coverTrigger: false,
+        constrainWidth: false,
+        hover: true,
+      });
+    </script>
+    <script>
+      // Collapsible inside the side-navbar
+      const collaps = document.querySelectorAll(".collapsible");
+      M.Collapsible.init(collaps, {});
+    </script>
+    <script>
+      // Close the sidenav
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Modal.init(elems, options);
+      });
+    </script>
+    <script>
+      // Slider
+      const slider = document.querySelector(".slider");
+      M.Slider.init(slider, {
+        interval: 4500,
+        indicators: false,
+      });
+    </script>
+  </body>
+</html>
