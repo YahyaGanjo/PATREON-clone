@@ -186,6 +186,15 @@
   font-size: 30px;
 }
 
+section .container p {
+  font-size: 22px;
+}
+
+h1 {
+  color: #ff424d;
+  font-weight: 700;
+}
+
 .person-name {
   margin: 5px;
   display: flex;
